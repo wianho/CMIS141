@@ -5,8 +5,8 @@
  */
 package week2;
 import java.util.Scanner;
-public class Asg1PC {
-	public static void main(String[] args) {
+public class Asg1PC { // begin main class
+	public static void main(String[] args) { // begin main method
 	    // opens scan
 		Scanner scan = new Scanner(System.in);
 		// ask for customer id
@@ -46,5 +46,5 @@ public class Asg1PC {
 		System.out.printf("Order Total After Discount: %.2f\n", total_after_discount);
 		// closes scan
 		scan.close();
-	}
-}
+	}// end main method
+} // end main class

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class CreditReport {
+    public static boolean isPaymentMade(int x) {
+        if (x==y){
+            return true;
+        }   else {
+            return false;
+
+        }
+
+        
+    }
+}

@@ -1,0 +1,26 @@
+
+// importing required classes
+import java.util.Scanner;
+
+// creating class named IfElse
+public class IfElse {
+    public static void main(String[] args) {
+        // declare int variable n
+        int n;
+        // creating scanner object from class Scanner
+        Scanner scanner = new Scanner(System.in);
+        // display output for asking user input
+        System.out.print("Enter Number : ");
+        // getting user input and store it in n variable
+        n = scanner.nextInt();
+        // checks if n modulus 2 is equal to 0
+        if (n%2==0)
+        // display even output
+            System.out.print("It's an Even number.");
+        // otherwise
+        IfElse
+        // display Odd output
+            System.out.print("It's an Odd number.");
+    }
+    
+}
